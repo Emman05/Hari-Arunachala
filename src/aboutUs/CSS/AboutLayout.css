@@ -684,6 +684,7 @@ font-family: 'Roboto', sans-serif;
         text-align: center;
         
 }
+
 /* footer page */
 
 .about-footer{
@@ -705,7 +706,7 @@ height: Hug (646.5px);
 .footer-container{
 width: Fill (1, 280px); 
 height: Hug (225px);
- gap: 40px;
+ gap: 150px;
  display: flex;
 padding-top: 20px;
 padding-bottom: 40px;
@@ -737,8 +738,8 @@ padding-bottom: 40px;
     height: Hug (37px); 
     padding: 8px 0px 8px 0px;
     font-family: 'Roboto', sans-serif;
-        font-size: 14px;
-        font-weight: 400;
+        font-size: 20px;
+        font-weight: bold;
         line-height: 21px;
         letter-spacing: 0em;
         text-align: left;
@@ -757,6 +758,16 @@ padding-bottom: 40px;
     height: Hug (67.5px); 
     gap: 640px;
 }
+
+.map-preview {
+    margin-top: 20px; /* Add space between the links and the map */
+    width: 100%; /* Set the width of the map to 100% of its container */
+    height: 200px; /* Set the height of the map as needed */
+    display: flex;
+    justify-content: flex-end; /* Align the map to the right */
+  }
+  
+  
 
 /* copyrights page */
 
