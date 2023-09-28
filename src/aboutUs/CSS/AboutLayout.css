@@ -706,7 +706,7 @@ height: Hug (646.5px);
 .footer-container{
 width: Fill (1, 280px); 
 height: Hug (225px);
- gap: 150px;
+ gap: 130px;
  display: flex;
 padding-top: 20px;
 padding-bottom: 40px;

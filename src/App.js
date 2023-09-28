@@ -6,6 +6,7 @@ import FoodLayout from './foodProducts/FoodLayout';
 import AboutLayout from './aboutUs/AboutLayout';
 import ScrollToTop from './utilities/ScrollToTop';
 import ReligiousStoreLayout from './religiousStore/ReligiousStoreLayout';
+import TermsofServicesLayout from './TermsofServices/TermsofServicesLayout';
 import SubsidisedLayout from './SubsidisedFood/SubsidisedLayout';
 import SocialInitiativesLayout from './socialInitiatives/SocialInitiativesLayout';
 import BookPageLayout from './bookPage/BookPageLayout';
@@ -30,6 +31,7 @@ function App() {
           <Route path='/Books' element={<BookPageLayout />} />
           <Route path='/SubsidizedFood' element={<SubsidisedLayout />} />
           <Route path='/social-initiatives' element={<SocialInitiativesLayout />} />
+          <Route path='/TermsofServices' element={<TermsofServicesLayout />} />
         </Routes>
       </Router>
 
