@@ -1,8 +1,10 @@
 .heading,
 .text {
-  align-self: stretch;
+  align-self: flex;
   position: relative;
   line-height: 120%;
+  justify-content: center;
+  display: flex;
 }
 
 .text {
@@ -18,8 +20,12 @@
     justify-content: flex-start;
   }
   .container {
-    width: 768px;
-    gap: 24px;
+    width: Fixed (1,440px);
+    height: Hug (1,350px);
+    padding: 0px, 64px, 112px, 64px;
+    gap: 80px;
+    justify-items: center;
+
   }  
 
 .header-64 {

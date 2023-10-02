@@ -6,10 +6,10 @@ function TermsOfServices() {
   return (
     <div className="terms-and-conditions-page">
       <div className="header-64">
-        <div className="container">
+        
           <b className="heading">Terms of Service</b>
           <div className="text">Effective date: April 3, 2023</div>
-        </div>
+        
       </div>
       <div className="content-7">
         <div className="content8">

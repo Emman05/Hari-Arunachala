@@ -249,12 +249,12 @@ height: 96px;
 
 /*Empower page*/
 .container {
-    display: flex;
+    display: 100%;
     justify-content: center;
     align-items: flex-start;
-    width: Fixed (1, 440px);
-    height: Fixed (1, 162px);
-    padding: 95px 64px 112px 64px;
+    width: Fixed (1,440px);
+    height: Hug (1,156px);
+    padding: 95px, 64px, 112px, 64px;
     gap: 80px;
     background-color: #FEF6EC;
 
@@ -706,7 +706,7 @@ height: Hug (646.5px);
 .footer-container{
 width: Fill (1, 280px); 
 height: Hug (225px);
- gap: 130px;
+ gap: 100px;
  display: flex;
 padding-top: 20px;
 padding-bottom: 40px;
