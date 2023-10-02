@@ -1107,3 +1107,334 @@ height: 58px;
     padding-top: 30px;
     padding-left: 64px;
 }
+
+/* contact page */
+/* contact head */
+.contact-head{
+    
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 2%;
+    padding-bottom: 5%;
+    gap: 80px;
+    display: flex;
+}
+.contact-page{
+   width: 50%;
+    
+    
+}
+
+.contact-page h1{
+
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 58px;
+        letter-spacing: 0em;
+        text-align: left;
+}
+.contact-page p{
+         
+       
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 27px;
+        letter-spacing: 0em;
+        text-align: left;
+}
+.contact-page button{
+    
+     
+    padding-left: 2%;
+        padding-right: 2%;
+        padding-top: 1%;
+        padding-bottom: 1%;
+    border-radius: 10px; 
+    border: 1px; 
+    gap: 8px;
+    background: #000000;
+    color: #F3A042;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: left;
+}
+.lab-inp {
+    margin-bottom: 1rem;
+}
+.form-group label{
+    
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.form-group{
+    display: block;
+}
+.form-group input{
+    width: 100%; 
+   
+    padding: 12px; 
+    border: 1px black solid; 
+    gap: 8px;
+}
+
+.form-group textarea{
+    width: 100%; 
+    height: 180px; 
+    padding: 12px; 
+    border: 1px black solid;
+}
+.contact-loc img{
+    width: 100%;
+}
+.CL-wrap{
+    padding-left: 5%; 
+    padding-top: 3%;
+    padding-bottom: 3%;
+   border-top: #000 solid 1px;
+   border-bottom: #000 solid 1px;
+    
+   display: flex;
+}
+.CL-wrap div{
+    display: flex;
+}
+.CL-wrap h5{
+        width: 50%;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 34px;
+        letter-spacing: 0em;
+        text-align: left;
+}
+.CL-right{
+    margin-top: 1.2%;
+}
+
+.CL-wrap img{
+    
+    width: 122.05px; 
+    height: 124.75px;
+    
+   
+}
+
+.CL-wrap p{
+        margin-top: 45px;
+        font-size: 25px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: left;
+}
+
+.CL-service{
+    display: flex;
+    
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    gap: 3%;
+}
+
+.services-list{
+    width: 23%;
+}
+.services-list h4{
+
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 42px;
+        letter-spacing: 0em;
+        text-align: left;
+}
+.services-list p{
+
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: left;
+}
+.services-list a{
+    color: #000;
+}
+.Qna{
+    padding-left: 5%;
+        padding-right: 5%;
+        padding-top: 5%;
+        padding-bottom: 5%;
+     border-bottom: 1px solid black; 
+     gap: 48px;
+     background-color: #FEF6EC;
+}
+ .Qna h2{
+   
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 58px;
+        letter-spacing: 0em;
+        text-align: center;
+ }
+ .Qna p{
+        width: 55%;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 27px;
+        letter-spacing: 0em;
+        text-align: center;
+ }
+ .question{
+
+   padding-top: 1%;
+   padding-bottom: 1%;
+   border-top: #000 1px solid;
+  display: flex;
+   width:100% ;
+   padding-left: 0%;
+ }
+.question p{
+    padding-left: 0;
+
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 27px;
+        letter-spacing: 0em;
+        text-align: left;
+}
+
+.question span{
+    margin-left: 48%;
+    text-align: right;
+    margin-top: 2.8%;
+}
+.q-a{
+    margin-top: 5%;
+    border-bottom: #000 solid 1px;
+    width:55% ;
+}
+.answer{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+.still-q{
+     gap: 24px;
+}
+.still-q h4{
+        margin-bottom: 0;
+        padding-bottom: 0;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 42px;
+        letter-spacing: 0em;
+        text-align: center;
+}
+.still-q p{
+        
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 27px;
+        letter-spacing: 0em;
+        text-align: center;
+}
+.still-q button{
+   
+    padding-left: 2%;
+        padding-right: 2%;
+        padding-top: 1%;
+        padding-bottom: 1%;
+        border-radius: 10px;
+        border: 1px solid #F3A042;
+        gap: 8px;
+        background: #000000;
+        color: #F3A042;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: left;
+}
+.still-next p{
+        width: 55%;
+        font-family: Inter;
+        font-size: 31px;
+        font-weight: 400;
+        line-height: 37px;
+        letter-spacing: 0em;
+        text-align: center;
+        padding-top: 2%;
+        padding-bottom: 2%;
+}
+
+.quest-get input{
+ width: 26%;
+ border: 1px solid #F8CA8F; 
+ gap: 8px;
+ height: 48px;
+ margin-right: 10px;
+}
+.quest-get button{
+    padding-left: 2%;
+        padding-right: 2%;
+        padding-top: 1%;
+        padding-bottom: 1%;
+       
+        border: 1px  ;
+        gap: 8px;
+        background: #000000;
+        color: #F3A042;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: left;
+}
+
+.quest-get P {
+    
+    width: 37%;
+        text-align: left;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 18px;
+        letter-spacing: 0em;
+    
+        
+}
+.quest-get a{
+
+color: #000;
+
+}
+
+.quotes-con{
+    padding-left: 5%;
+        padding-right: 5%;
+        padding-top: 5%;
+        padding-bottom: 5%;
+}
+.quotes-con h2{
+    
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 58px;
+        letter-spacing: 0em;
+        text-align: center;
+}
+.quotes-con p{
+    width: 60%;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 27px;
+        letter-spacing: 0em;
+        text-align: center;
+}

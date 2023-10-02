@@ -1,12 +1,21 @@
 import React from 'react'
-import ContactHead from './ContactHead'
-import ContactServ from './ContactServ'
-import "./contact.css"
+import ContactPage from './ContactPage'
+import ContactLogo from './ContactLogo';
+import Contactinfo from './Contactinfo';
+import QnA from './QnA';
+import ContQuotes from './ContQuotes';
+import Footer from '../aboutUs/Footer'
+import '../App.css';
+
 const ContactLayout = () => {
   return (
     <div>
-        <ContactHead></ContactHead>
-        <ContactServ></ContactServ>
+      <ContactPage></ContactPage>
+      <ContactLogo></ContactLogo>
+      <Contactinfo></Contactinfo>
+      <QnA></QnA>
+      <ContQuotes></ContQuotes>
+      <Footer></Footer>
     </div>
   )
 }

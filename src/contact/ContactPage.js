@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
-import location from './placeholder--image@2x.png';
-const ContactHead = () => {
+import location from './placeholder--image@2x.png'
+
+const ContactPage = () => {
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -22,14 +23,15 @@ const ContactHead = () => {
   };
 
   return (
-    <div className='contact-page'>
-    <div className="contact">
+    <div className='contact-head'>
+    <div className="contact-page">
       <h1>Contact Us</h1>
       <p>Our dedicated Customer Support team is here to assist you with any inquiries or assistance you may need</p>
       <form onSubmit={handleSubmit}>
         <div className="form-group">
-          <label htmlFor="name">Name:</label>
-          <input
+          <label htmlFor="name" >Name:</label>
+          <div className='lab-inp'>
+            <input
             type="text"
             id="name"
             name="name"
@@ -37,10 +39,13 @@ const ContactHead = () => {
             onChange={handleInputChange}
             required
           />
+          </div>
+          
         </div>
         <div className="form-group">
           <label htmlFor="email">Email:</label>
-          <input
+          <div className='lab-inp'>
+            <input
             type="email"
             id="email"
             name="email"
@@ -48,25 +53,27 @@ const ContactHead = () => {
             onChange={handleInputChange}
             required
           />
+          </div>
+          
         </div>
         <div className="form-group">
-          <label htmlFor="message">Message:</label>
-          <textarea
+          <label htmlFor="message" >Message:</label>
+          <div className='lab-inp'>
+             <textarea
             id="message"
             name="message"
             value={formData.message}
             onChange={handleInputChange}
             required
           />
+          </div>
         </div>
         <button type="submit">Submit</button>
       </form>
     </div>
-    <div className='contact-img'>
-    <img src={location} alt="image-home" />
-    </div>
+    <div className='contact-loc'><img src={location} alt="" /></div>
     </div>
   );
 };
 
-export default ContactHead;
+export default ContactPage;

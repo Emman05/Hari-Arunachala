@@ -7,7 +7,7 @@ const Footer = () => {
       link1: "About Us",
       link2: "Terms of Services",
       link3: "Social Initiatives",
-      link4: "Terms And Conditions",
+      link4: "Privacy Policy",
       link5: "LinkedIn",
     },
     {
