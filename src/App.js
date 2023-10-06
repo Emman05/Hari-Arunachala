@@ -6,6 +6,7 @@ import FoodLayout from './foodProducts/FoodLayout';
 import AboutLayout from './aboutUs/AboutLayout';
 import ScrollToTop from './utilities/ScrollToTop';
 import ReligiousStoreLayout from './religiousStore/ReligiousStoreLayout';
+import PrivacypolicyLayout from './privacypolicy/PrivacypolicyLayout';
 import TermsofServicesLayout from './TermsofServices/TermsofServicesLayout';
 import SubsidisedLayout from './SubsidisedFood/SubsidisedLayout';
 import SocialInitiativesLayout from './socialInitiatives/SocialInitiativesLayout';
@@ -32,6 +33,7 @@ function App() {
           <Route path='/SubsidizedFood' element={<SubsidisedLayout />} />
           <Route path='/social-initiatives' element={<SocialInitiativesLayout />} />
           <Route path='/TermsofServices' element={<TermsofServicesLayout />} />
+          <Route path='/Privacypolicy' element={<PrivacypolicyLayout />} />
         </Routes>
       </Router>
 
