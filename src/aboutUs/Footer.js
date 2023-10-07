@@ -29,7 +29,7 @@ const Footer = () => {
               <li> <a href="./about">{item.link1}</a></li>
               <li> <a href="./TermsofServices">{item.link2}</a></li>
               <li> <a href="./social-initiatives">{item.link3}</a></li>
-              <li> <a href="#">{item.link4}</a></li>
+              <li> <a href="./Privacypolicy">{item.link4}</a></li>
               <li> <a href="https://www.linkedin.com/company/yugaastech/">{item.link5}</a></li>
             </ul>
           ))}
