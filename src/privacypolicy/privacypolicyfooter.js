@@ -1,10 +1,10 @@
 import React from 'react';
 import Footer from '../aboutUs/Footer';
 
-const privacypolicyfooter = () => {
+const ppfooter = () => {
   return (
     <section>
-    <div className='privacypolicyfooter'>
+    <div className='NLES Footer-Rs'>
     
     </div>
     <Footer></Footer>
@@ -12,4 +12,4 @@ const privacypolicyfooter = () => {
   )
 }
 
-export default privacypolicyfooter;
+export default ppfooter;

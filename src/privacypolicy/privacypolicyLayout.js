@@ -1,16 +1,17 @@
 import React from 'react';
 import Privacypolicy from './privacypolicycont'; 
-import ppheader from './privacypolicyheader';
-import ppfooter from './privacypolicyfooter';
+import TOSHeader from './privacypolicyheader';
+import TOSfooter from './privacypolicyfooter';
 import "./privacypolicy.css";
 
-const privacypolicyLayout = () => {
+const TermsOfServicesLayout = () => {
   return (
     <div>
-    <ppheader></ppheader>
-    <ppfooter></ppfooter>
-    </div>
+    <TOSHeader></TOSHeader>
+    <Privacypolicy></Privacypolicy>
+    <TOSfooter></TOSfooter>
+</div>
   )
 }
 
-export default privacypolicyLayout
+export default TermsOfServicesLayout
